@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galatasaray Futbol - modern taraftar deneyimi" />
+  <title>Galatasaray Futbol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="Galatasaray Futbol ana sayfa">
+      <div class="crest-mini">G</div>
+      <div class="brand-copy">
+        <strong>GALATASARAY</strong>
+        <span>FUTBOL</span>
+      </div>
+    </a>
+
+    <nav class="main-nav" aria-label="Ana menü">
+      <a class="active" href="#top">Ana Sayfa</a>
+      <a href="#team">Takım</a>
+      <a href="#fixtures">Fikstür</a>
+      <a href="#results">Sonuçlar</a>
+      <a href="#table">Puan Durumu</a>
+      <a href="#news">Haberler</a>
+      <a href="#stats">İstatistikler</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Ara">⌕</button>
+      <button class="icon-btn" aria-label="Dil">TR</button>
+      <button class="icon-btn menu-btn" aria-label="Menüyü aç">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-reveal">
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+        <div class="hero-lines"></div>
+        <div class="hero-orb"></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">GALATASARAY SPOR KULÜBÜ · 1905</p>
+        <h1>DAİMA<br><span>DAHA İLERİ.</span></h1>
+        <p class="hero-sub">Bir tarihten daha fazlası.<br />Bugün, yarın ve her zaman.</p>
+        <a class="gold-btn" href="#next-match">Maç detayları <span>↗</span></a>
+      </div>
+
+      <div class="hero-match glass-card" id="next-match">
+        <div class="match-meta"><span>SONRAKİ MAÇ</span><span>01 / 06</span></div>
+        <div class="teams">
+          <div class="team">
+            <div class="crest">GS</div>
+            <strong>GALATASARAY</strong>
+          </div>
+          <div class="vs">VS</div>
+          <div class="team">
+            <div class="crest opponent">BJK</div>
+            <strong>BEŞİKTAŞ</strong>
+          </div>
+        </div>
+        <div class="match-details"><span>21 EYLÜL</span><span>20:00</span><span>RAMS PARK</span></div>
+      </div>
+
+      <div class="hero-side-note">TARİH<br /><strong>TUTKU</strong><br />MÜCADELE<br /><strong>ZAFER</strong></div>
+      <div class="scroll-cue"><span>SCROLL</span><i></i></div>
+    </section>
+
+    <section class="match-strip section-reveal" id="results">
+      <div class="result-panel">
+        <div class="panel-kicker">SON MAÇ <span>SÜPER LİG · 8. HAFTA</span></div>
+        <div class="score-row"><strong>GALATASARAY</strong><div class="score">3 <span>—</span> 1</div><strong>RİZESPOR</strong></div>
+        <div class="scorers"><span>İcardi 12'</span><span>Mertens 28'</span><span>Barış Alper 67'</span><span>Olayowin 45'</span></div>
+        <a href="#" class="outline-btn">Maç özeti <span>→</span></a>
+      </div>
+      <div class="result-panel next">
+        <div class="panel-kicker">SONRAKİ MAÇ <span>SÜPER LİG · 9. HAFTA</span></div>
+        <div class="score-row compact"><strong>GALATASARAY</strong><div class="score">VS</div><strong>BEŞİKTAŞ</strong></div>
+        <div class="match-details"><span>21 EYLÜL</span><span>20:00</span><span>RAMS PARK</span></div>
+        <a href="#fixtures" class="outline-btn">Maç merkezi <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="content-section news-section section-reveal" id="news">
+      <div class="section-heading">
+        <div><span class="section-index">01</span><h2>HABERLER</h2></div>
+        <a href="#" class="text-link">TÜM HABERLER <span>→</span></a>
+      </div>
+
+      <div class="news-layout">
+        <article class="featured-news">
+          <div class="fake-photo photo-football"></div>
+          <div class="news-tag">KULÜPTEN</div>
+          <h3>Galatasaray, yoluna emin adımlarla devam ediyor</h3>
+          <p>Sezonun yeni haftasında takımın hedefi yine zirve.</p>
+          <a href="#" class="outline-btn">Detaylar <span>→</span></a>
+        </article>
+        <div class="news-list">
+          <article class="news-item"><div class="thumb thumb-1"></div><div><span>TAKIM</span><h4>Yeni sezonun hedefleri ve büyük geceler</h4><small>18 Eylül 2026</small></div></article>
+          <article class="news-item"><div class="thumb thumb-2"></div><div><span>MAÇ</span><h4>RAMS Park'ta bir Avrupa gecesi daha</h4><small>17 Eylül 2026</small></div></article>
+          <article class="news-item"><div class="thumb thumb-3"></div><div><span>ARŞİV</span><h4>Galatasaray'ın unutulmaz zaferleri</h4><small>16 Eylül 2026</small></div></article>
+          <article class="news-item"><div class="thumb thumb-4"></div><div><span>KULÜP</span><h4>Yeni dijital deneyim şimdi başladı</h4><small>15 Eylül 2026</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section team-section section-reveal" id="team">
+      <div class="section-heading">
+        <div><span class="section-index">02</span><h2>TAKIM</h2><p>ASLANLARIMIZ</p></div>
+        <div class="role-tabs" role="tablist">
+          <button class="role-tab active" data-role="all">Tümü</button>
+          <button class="role-tab" data-role="kaleciler">Kaleciler</button>
+          <button class="role-tab" data-role="defans">Defans</button>
+          <button class="role-tab" data-role="orta">Orta Saha</button>
+          <button class="role-tab" data-role="forvet">Forvet</button>
+        </div>
+      </div>
+
+      <div class="team-stage">
+        <div class="team-copy">
+          <p>Aynı forma.<br />Aynı inanç.<br /><strong>Daha büyük hedefler.</strong></p>
+          <a href="#" class="outline-btn">Tüm kadro <span>→</span></a>
+        </div>
+        <div class="player-carousel" id="playerCarousel">
+          <article class="player-card featured" data-role="forvet"><div class="player-silhouette p1"></div><div class="player-info"><small>53 · FORVET</small><strong>BARIŞ ALPER<br />YILMAZ</strong></div></article>
+          <article class="player-card" data-role="forvet"><div class="player-silhouette p2"></div><div class="player-info"><small>09 · FORVET</small><strong>MAURO<br />ICARDI</strong></div></article>
+          <article class="player-card" data-role="orta"><div class="player-silhouette p3"></div><div class="player-info"><small>34 · ORTA SAHA</small><strong>LUCAS<br />TORREIRA</strong></div></article>
+          <article class="player-card" data-role="kaleciler"><div class="player-silhouette p4"></div><div class="player-info"><small>01 · KALECİ</small><strong>FERNANDO<br />MUSLERA</strong></div></article>
+          <article class="player-card" data-role="defans"><div class="player-silhouette p5"></div><div class="player-info"><small>42 · DEFANS</small><strong>ABDÜLKERİM<br />BARDAKCI</strong></div></article>
+        </div>
+        <div class="carousel-controls"><button id="prevPlayer">←</button><span id="playerCount">01 / 05</span><button id="nextPlayer">→</button></div>
+      </div>
+    </section>
+
+    <section class="content-section fixture-section section-reveal" id="fixtures">
+      <div class="section-heading">
+        <div><span class="section-index">03</span><h2>FİKSTÜR</h2><p>2026 / 27</p></div>
+        <a href="#" class="text-link">TÜM FİKSTÜR <span>→</span></a>
+      </div>
+      <div class="fixture-track">
+        <article class="fixture-card active"><small>21 EYL · PAZ</small><div class="fixture-teams"><span>GS</span><b>VS</b><span>BJK</span></div><strong>20:00</strong><p>RAMS PARK</p><small>Süper Lig · 9. Hafta</small></article>
+        <article class="fixture-card"><small>28 EYL · PAZ</small><div class="fixture-teams"><span>GS</span><b>VS</b><span>KNY</span></div><strong>20:00</strong><p>MEDAŞ KONYA BŞB</p><small>Süper Lig · 10. Hafta</small></article>
+        <article class="fixture-card"><small>05 EKİ · PAZ</small><div class="fixture-teams"><span>GS</span><b>VS</b><span>AVS</span></div><strong>20:00</strong><p>RAMS PARK</p><small>Süper Lig · 11. Hafta</small></article>
+        <article class="fixture-card"><small>19 EKİ · PAZ</small><div class="fixture-teams"><span>GS</span><b>VS</b><span>SAMS</span></div><strong>20:00</strong><p>SAMSUN 19 MAYIS</p><small>Süper Lig · 12. Hafta</small></article>
+        <article class="fixture-card all-fixtures"><b>TÜM<br />FİKSTÜR</b><span>→</span></article>
+      </div>
+    </section>
+
+    <section class="content-section season-section section-reveal" id="stats">
+      <div class="season-copy"><span class="section-index">04</span><h2>SEZON</h2><p>2026 / 27</p><small>RAKAMLARLA<br />GALATASARAY</small></div>
+      <div class="season-stats">
+        <div><strong>08</strong><span>MAÇ</span></div>
+        <div><strong>07</strong><span>GALİBİYET</span></div>
+        <div><strong>01</strong><span>BERABERLİK</span></div>
+        <div><strong>00</strong><span>YENİLGİ</span></div>
+        <div><strong>22</strong><span>ATILAN GOL</span></div>
+        <div><strong>06</strong><span>YENİLEN GOL</span></div>
+      </div>
+      <a href="#table" class="outline-btn">Tüm istatistikler <span>→</span></a>
+    </section>
+
+    <section class="stadium-section section-reveal" id="table">
+      <div class="stadium-overlay"></div>
+      <div class="stadium-content"><p>SONUNA KADAR</p><h2>GALATASARAY</h2><div class="crest-large">G</div><span>DAHA BÜYÜK HAYALLERE</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand footer-brand"><div class="crest-mini">G</div><div class="brand-copy"><strong>GALATASARAY</strong><span>SPOR KULÜBÜ</span></div></div>
+    <div class="footer-links"><a href="#">KULÜP</a><a href="#">FUTBOL</a><a href="#">KADIN FUTBOLU</a><a href="#">BASKETBOL</a><a href="#">VOLEYBOL</a><a href="#">AKADEMİ</a><a href="#">GS STORE</a></div>
+    <div class="socials"><span>◎</span><span>𝕏</span><span>▶</span><span>◎</span><button id="backTop" aria-label="Başa dön">↑</button></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
